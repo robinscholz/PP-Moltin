@@ -1,6 +1,6 @@
 # 📢 PP Moltin
 
-Receives a Paypal Instant Payment Notifciation (IPN) and changes the corresponding order’s status to completed.
+Receive a Paypal Instant Payment Notifciation (IPN) and change the corresponding order’s status to completed.
 
 
 ## Installation
