@@ -1,0 +1,11 @@
+node_modules
+
+package-lock.json
+
+localStorage
+
+.git
+
+yarn.lock
+
+.env
