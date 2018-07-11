@@ -63,7 +63,7 @@ curl -X "POST" "https://api.moltin.com/v2/fields" \
 Run the app with 
 ```npm run start```
 
-To run the app in production update the `.env` file:
+To run the app in a production environment update the `.env` file:
 ```
 PAYPAL_ENVIRONMENT=live
 ```
