@@ -6,7 +6,7 @@ Receive a Paypal Instant Payment Notifciation (IPN) and change the corresponding
 ## Installation
 
 1. Clone this repository or download a copy to your local environment
-2. Add a `.env` file to the root folder:
+2. Add a `.env` file to the root folder
 ```
 MOLTIN_CLIENT_ID=
 MOLTIN_CLIENT_SECRET=
@@ -14,7 +14,7 @@ PAYPAL_ENVIRONMENT=sandbox
 PAYPAL_SANDBOX_EMAIL=
 PAYPAL_LIVE_EMAIL=
 ```
-3. Create a flow `orders` on moltin:
+3. Create a flow `orders` on moltin
 
 ```
 curl -X POST "https://api.moltin.com/v2/flows" \
@@ -30,7 +30,7 @@ curl -X POST "https://api.moltin.com/v2/flows" \
         }
      }'
 ```
-4. Add a field `txn_id` to the orders flow:
+4. Add a field `txn_id` to the orders flow
 ```
 curl -X "POST" "https://api.moltin.com/v2/fields" \
      -H "Authorization: XXXX" \
@@ -63,7 +63,7 @@ curl -X "POST" "https://api.moltin.com/v2/fields" \
 Run the app with 
 ```npm run start```
 
-To run the app in production update the `.env` file:
+To run the app in production update the `.env` files
 ```
 PAYPAL_ENVIRONMENT=live
 ```
