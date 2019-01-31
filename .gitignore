@@ -9,3 +9,4 @@ localStorage
 yarn.lock
 
 .env
+.DS_Store
